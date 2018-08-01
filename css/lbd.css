@@ -147,8 +147,9 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);;
-  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0.9;
+  
 }
 
 
@@ -165,6 +166,20 @@ header {
   -ms-transform: translate(-50%,-50%);
  
 }
+@media screen and (max-width:600px) {
+  #text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 23px;
+    color: white;
+    line-height: 1.0em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+}
 
 .lead{
   position: absolute;
@@ -179,6 +194,23 @@ header {
   -ms-transform: translate(-50%,-50%);
  
 }
+
+@media screen and (max-width:600px) {
+  .lead{
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    font-size: 17px;
+    color: white;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+   
+  }
+}
+
 .readmore button {
   position: absolute;
   top: 72%;
@@ -193,6 +225,13 @@ header {
   margin-top: 15px;
   text-transform: uppercase;
 }
+@media screen and (max-width:400px) {
+  .readmore button {
+    left: 30%;
+  }
+
+}
+
 .readmore button:hover {
   background: transparent;
   border: 1px solid #f5af25;
