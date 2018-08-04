@@ -298,7 +298,7 @@ header {
 .icon-box.active {
   transition:  0.8s;
   border: 0;
-  background: linear-gradient(270deg, rgb(13, 37, 116) 0%, rgb(173, 124, 124) 100%); /* w3c */
+  background: linear-gradient(270deg, rgb(13, 37, 116) 0%, rgb(70, 4, 4) 100%); /* w3c */
   color: #fff;
 }
 
